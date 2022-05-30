@@ -1,0 +1,51 @@
+#
+!project.cpp algorithm cctype cerrno clocale cstdint cstdio cstdlib ctime ctype.h cwchar cwctype errno.h exception fstream graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+DECKSIZE : const int #<project.cpp>
+DICEHEIGHT : const int #<project.cpp>
+DICEWIDTH : const int #<project.cpp>
+HEIGHT : const int #<project.cpp>
+WIDTH : const int #<project.cpp>
+amountOfScores : int #<project.cpp>
+bt : buttons[] #<project.cpp>
+buttons _type_ #<project.cpp>
+currDeckSize : int #<project.cpp>
+deck : vector #<project.cpp>
+deckProcessing() -> void #<project.cpp>
+defineDice(int id, double a, double b, int c) -> void #<project.cpp>
+dice _type_ #<project.cpp>
+drawDesk() -> void #<project.cpp>
+drawDice(int id) -> void #<project.cpp>
+field : intinitY=127;int[][] #<project.cpp>
+fieldOfDice : int[][][] #<project.cpp>
+fieldsCreation() -> void #<project.cpp>
+findAvailablePairs() -> int #<project.cpp>
+gameSituation(int a) -> void #<project.cpp>
+gameWindow : IMAGE* #<project.cpp>
+in : ifstream #<project.cpp>
+informationScreen : IMAGE* #<project.cpp>
+initBasicButtons() -> void #<project.cpp>
+initX : int #<project.cpp>
+loadFiles() -> void #<project.cpp>
+main() -> int #<project.cpp>
+mainMenu : IMAGE* #<project.cpp>
+menuButtons(int currStatus) -> int #<project.cpp>
+menuState : int #<project.cpp>
+numberOfPossibleMoves : int #<project.cpp>
+resetDice(int id) -> void #<project.cpp>
+rulesScreen : IMAGE* #<project.cpp>
+selectedDice _type_ #<project.cpp>
+showSubItem(int a) -> void #<project.cpp>
+startGame() -> void #<project.cpp>
+	buttons::left : int #<project.cpp>
+	buttons::top : int #<project.cpp>
+	buttons::w : int #<project.cpp>
+	buttons::h : int #<project.cpp>
+	dice::type : int #<project.cpp>
+	dice::rank : int #<project.cpp>
+	dice::x : int #<project.cpp>
+	dice::y : int #<project.cpp>
+	dice::z : int #<project.cpp>
+	dice::isSelected : bool #<project.cpp>
+	selectedDice::id : int #<project.cpp>
+	selectedDice::x : int #<project.cpp>
+	selectedDice::y : int #<project.cpp>
